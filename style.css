@@ -1,0 +1,669 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Chakra Petch", sans-serif !important;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+}
+
+.sign-up-with {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.sign-up-with span {
+    margin-right: 4px;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 16px;
+    display: block;
+    align-items: center;
+}
+
+.social-icon {
+    width: 20px;
+    padding-right: 6px;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -3;
+    filter: blur(5px);
+}
+
+.overlay {
+    z-index: -2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #ff6b6b67, #6b6bff64, #6bff6b72);
+    background-size: 150% 150%;
+    animation: rotateGradient 3s ease-in-out infinite;
+}
+
+.content {
+    transform: translateY(20px);
+    max-width: 20%;
+    height: 65%;
+    border-radius: 45px 0 0 0;
+    padding: 30px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-image: url("image/Blue Gradient Wallpaper.jpg");
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    box-shadow: 0 0 100px #fffef0;
+    position: relative;
+}
+
+.login {
+    margin: 0;
+    max-width: 20%;
+    height: 65%;
+    border-radius: 0 0 45px 0;
+    padding: 30px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeeee;
+    filter: brightness(0.5s) filter: brightness(0.5);
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    box-shadow: 0 0 100px #fffef0;
+    position: relative;
+}
+
+.login>.frame {
+    width: 100%;
+    height: 4px;
+    background-color: #3eff08;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.content>.frame {
+    width: 100%;
+    height: 4px;
+    background-color: #3eff08;
+    margin: 0;
+    position: absolute;
+    top: calc(100% - 4px);
+    left: 0;
+}
+
+
+.content h3 {
+    color: rgb(23, 27, 7);
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.content h2 {
+    font-family: "Chakra Petch", sans-serif !important;
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#colored {
+    color: #3eff08;
+}
+
+h5 {
+    font-weight: 500;
+}
+
+.content h5,
+.content p {
+    font-weight: 300;
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.content h5,
+.content p {
+    font-size: 14px;
+    font-weight: 300;
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.login h5,
+.login p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(72, 73, 70);
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.login h5 {
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.paragraph {
+    width: 80%;
+}
+
+p a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #8111d7;
+}
+
+.h-four {
+    margin-bottom: 0 !important;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #a4a4a457;
+    backdrop-filter: blur(7px);
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+    padding: 10px;
+    box-shadow: 0px -2px 100px rgba(33, 242, 99, 0.2);
+    transition: background 0.5s, box-shadow 0.5s;
+    font-size: 1rem;
+}
+
+footer a {
+    color: #ebebeb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@keyframes rotateGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.checkbox-wrapper-19 {
+    margin: 20px 0 10px 0;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    --background-color: #fff;
+    --checkbox-height: 15px;
+}
+
+@-moz-keyframes dothabottomcheck-19 {
+    0% {
+        height: 0;
+    }
+
+    100% {
+        height: calc(var(--checkbox-height) / 2);
+    }
+}
+
+@-webkit-keyframes dothabottomcheck-19 {
+    0% {
+        height: 0;
+    }
+
+    100% {
+        height: calc(var(--checkbox-height) / 2);
+    }
+}
+
+@keyframes dothabottomcheck-19 {
+    0% {
+        height: 0;
+    }
+
+    100% {
+        height: calc(var(--checkbox-height) / 2);
+    }
+}
+
+@keyframes dothatopcheck-19 {
+    0% {
+        height: 0;
+    }
+
+    50% {
+        height: 0;
+    }
+
+    100% {
+        height: calc(var(--checkbox-height) * 1.2);
+    }
+}
+
+@-webkit-keyframes dothatopcheck-19 {
+    0% {
+        height: 0;
+    }
+
+    50% {
+        height: 0;
+    }
+
+    100% {
+        height: calc(var(--checkbox-height) * 1.2);
+    }
+}
+
+@-moz-keyframes dothatopcheck-19 {
+    0% {
+        height: 0;
+    }
+
+    50% {
+        height: 0;
+    }
+
+    100% {
+        height: calc(var(--checkbox-height) * 1.2);
+    }
+}
+
+.checkbox-wrapper-19 input[type=checkbox] {
+    display: none;
+}
+
+.checkbox-wrapper-19 .check-box {
+    height: var(--checkbox-height);
+    width: var(--checkbox-height);
+    background-color: transparent;
+    border: calc(var(--checkbox-height) * .1) solid #24d553;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-transition: border-color ease 0.2s;
+    -o-transition: border-color ease 0.2s;
+    -webkit-transition: border-color ease 0.2s;
+    transition: border-color ease 0.2s;
+    cursor: pointer;
+}
+
+.checkbox-wrapper-19 .check-box::before,
+.checkbox-wrapper-19 .check-box::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    height: 0;
+    width: calc(var(--checkbox-height) * .2);
+    background-color: #34b93d;
+    display: inline-block;
+    -moz-transform-origin: left top;
+    -ms-transform-origin: left top;
+    -o-transform-origin: left top;
+    -webkit-transform-origin: left top;
+    transform-origin: left top;
+    border-radius: 5px;
+    content: " ";
+    -webkit-transition: opacity ease 0.5;
+    -moz-transition: opacity ease 0.5;
+    transition: opacity ease 0.5;
+}
+
+.checkbox-wrapper-19 .check-box::before {
+    top: calc(var(--checkbox-height) * .72);
+    left: calc(var(--checkbox-height) * .41);
+    box-shadow: 0 0 0 calc(var(--checkbox-height) * .05) var(--background-color);
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+
+.checkbox-wrapper-19 .check-box::after {
+    top: calc(var(--checkbox-height) * .37);
+    left: calc(var(--checkbox-height) * .05);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.checkbox-wrapper-19 input[type=checkbox]:checked+.check-box,
+.checkbox-wrapper-19 .check-box.checked {
+    border-color: #34b93d;
+}
+
+.checkbox-wrapper-19 input[type=checkbox]:checked+.check-box::after,
+.checkbox-wrapper-19 .check-box.checked::after {
+    height: calc(var(--checkbox-height) / 2);
+    -moz-animation: dothabottomcheck-19 0.2s ease 0s forwards;
+    -o-animation: dothabottomcheck-19 0.2s ease 0s forwards;
+    -webkit-animation: dothabottomcheck-19 0.2s ease 0s forwards;
+    animation: dothabottomcheck-19 0.2s ease 0s forwards;
+}
+
+.checkbox-wrapper-19 input[type=checkbox]:checked+.check-box::before,
+.checkbox-wrapper-19 .check-box.checked::before {
+    height: calc(var(--checkbox-height) * 1.2);
+    -moz-animation: dothatopcheck-19 0.4s ease 0s forwards;
+    -o-animation: dothatopcheck-19 0.4s ease 0s forwards;
+    -webkit-animation: dothatopcheck-19 0.4s ease 0s forwards;
+    animation: dothatopcheck-19 0.4s ease 0s forwards;
+}
+
+$color: #1abc9c;
+
+input::-webkit-input-placeholder,
+button {
+    transition: all 0.3s ease-in-out;
+}
+
+input {
+    width: 200px;
+    display: block;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    border-bottom: solid 1px $color;
+    transition: all 0.3s cubic-bezier(.64, .09, .08, 1);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, $color 4%);
+    background-position: -200px 0;
+    background-size: 200px 100%;
+    background-repeat: no-repeat;
+    color: darken($color, 50%);
+
+    &:focus,
+    &:valid {
+        box-shadow: none;
+        outline: none;
+        background-position: 0 0;
+
+        &::-webkit-input-placeholder {
+            color: $color;
+            font-size: 11px;
+            transform: translateY(0px);
+            visibility: visible !important;
+        }
+    }
+}
+
+button {
+    border: none;
+    background: linear-gradient(135deg, #24d553, #8080ee64);
+    cursor: pointer;
+    border-radius: 3px 3px 15px 3px;
+    padding: 10px 15px 10px 15px;
+    font-weight: 550;
+    color: rgb(0, 0, 0);
+
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .content,
+    .login {
+        max-width: 70%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .content {
+        border-radius: 20px 20px 0 0;
+    }
+
+    .login {
+        border-radius: 0 0 20px 20px;
+    }
+
+    .sign-up-with span {
+        font-size: 14px;
+    }
+
+    .social-icon {
+        width: 18px;
+    }
+
+    .sign-up-with {
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .content h2 {
+        font-size: 24px;
+    }
+
+    .content h3 {
+        font-size: 24px;
+    }
+
+    .content h5,
+    .content p,
+    .login h5,
+    .login p {
+        font-size: 14px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+
+    .content,
+    .login {
+        max-width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .content {
+        border-radius: 20px 20px 0 0;
+    }
+
+    .login {
+        border-radius: 0 0 20px 20px;
+    }
+
+    .icon,
+    .social-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .sign-up-with {
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .sign-up-with span {
+        font-size: 14px;
+    }
+
+    .social-icon {
+        width: 16px;
+    }
+
+    .content h2 {
+        font-size: 24px;
+    }
+
+    .content h3 {
+        font-size: 24px;
+    }
+
+    .content h5,
+    .content p,
+    .login h5,
+    .login p {
+        font-size: 14px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .content,
+    .login {
+        max-width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .content {
+        border-radius: 15px 15px 0 0;
+    }
+
+    .login {
+        border-radius: 0 0 15px 15px;
+    }
+
+    .icon,
+    .social-icon {
+        width: 14px;
+        height: 14px;
+    }
+
+    .sign-up-with span {
+        font-size: 12px;
+    }
+
+    .sign-up-with {
+        bottom: 5px;
+        right: 5px;
+    }
+
+    .content h2 {
+        font-size: 20px;
+    }
+
+    .content h3 {
+        font-size: 20px;
+    }
+
+    .content h5,
+    .content p,
+    .login h5,
+    .login p {
+        font-size: 12px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .content,
+    .login {
+        max-width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .content {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .login {
+        border-radius: 0 0 10px 10px;
+    }
+
+    .icon,
+    .social-icon {
+        width: 10px;
+        height: 10px;
+    }
+
+    .sign-up-with span {
+        font-size: 10px;
+
+    }
+
+    .sign-up-with {
+        bottom: 5px;
+        right: 5px;
+    }
+
+    .content h2 {
+        font-size: 18px;
+    }
+
+    .content h3 {
+        font-size: 18px;
+    }
+
+    .content h5,
+    .content p,
+    .login h5,
+    .login p {
+        font-size: 10px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+}
